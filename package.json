@@ -1,6 +1,6 @@
 {
   "name": "compose-funcs",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Compose functions (i.e. f(g(x)) -> (f ∘ g)(x)). Returns a function with correct length and a descriptive name",
   "main": "src/index.js",
   "directories": {
