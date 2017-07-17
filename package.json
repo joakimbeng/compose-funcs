@@ -1,0 +1,49 @@
+{
+  "name": "compose-funcs",
+  "version": "0.1.0",
+  "description": "Compose functions (i.e. f(g(x)) -> (f ∘ g)(x)). Returns a function with correct length and a descriptive name",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joakimbeng/compose-funcs.git"
+  },
+  "keywords": [
+    "compose",
+    "composition",
+    "functions",
+    "functional",
+    "combine"
+  ],
+  "author": {
+    "name": "Joakim Carlstein",
+    "email": "joakim@beng.se",
+    "url": "http://joakim.beng.se"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joakimbeng/compose-funcs/issues"
+  },
+  "homepage": "https://github.com/joakimbeng/compose-funcs#readme",
+  "xo": {
+    "extends": "xo/esnext",
+    "envs": [
+      "node"
+    ]
+  },
+  "devDependencies": {
+    "ava": "^0.21.0",
+    "standard-version": "^4.2.0",
+    "xo": "^0.18.2"
+  },
+  "dependencies": {
+    "mimic-fn": "^1.1.0",
+    "rename-fn": "^1.0.0"
+  }
+}
